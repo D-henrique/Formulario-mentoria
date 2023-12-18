@@ -1,9 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Agende sua Mentoria</title>
+    <link rel="shortcut icon" href="images/favicon.svg" type="image" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="page">
+
+      <header>
+        <h1>Mentoria</h1>
+        <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+    </header>
+    <form id="my-form">
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Informações Pessoais</legend>
+          
+          <label for="name">Nome</label>
+          <input type="text" id="name" />
+          
+          <label for="surname">Sobrenome</label>
+          <input type="text" id="surname" />
+          
+          <label for="email">E-mail <span>(digite um email válido)</span></label>
+          <input type="email" id="email" />
+          
+          <label for="password">Senha <span>(mínimo 6 caracteres)</span></label>
+          <input type="password" id="password" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Informações do mentor</legend>
+          
+          <label for="mentor-name">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+          <input type="text" id="mentor-name" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Seus horários disponíveis</legend>
+          <h1>Primeira Mentoria</h1>
+          <input type="date" id="" />
+          <input type="time" id="" />
+          <input type="time" id="" />
+
+          <h1>Segunda Mentoria</h1>
+          <input type="date" id="" />
+          <input type="time" id="" />
+          <input type="time" id="" />
+        </div>
+      </fieldset>
+    </div>
+    </form>
+  </body>
 </html>
